@@ -21,4 +21,8 @@ func main() {
 
 	fmt.Println("new list", langwages)
 
+	for key, value := range langwages {
+		fmt.Println("for key %V, value %V\n", key, value)
+	}
+
 }
